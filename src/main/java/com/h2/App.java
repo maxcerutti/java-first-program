@@ -2,6 +2,7 @@ package com.h2;
 
 /**
  * Hello world!
+ * Hello la promotion Data Analyse!
  *
  */
 public class App 
