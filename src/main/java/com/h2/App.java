@@ -18,14 +18,6 @@ public class App
 
     private static int add (int[] numbers) {
 
-        int sum = 0;
-        int i;
-
-        for(i = 0,i = numbers.length(), i++)
-        {
-            sum += numbers;
-            return sum;
-        }
     }
 
 
