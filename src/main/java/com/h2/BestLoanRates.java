@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class BestLoanRates {
 
     public static void main (String[] args){
-        Scanner scanner(System.in);
+        Scanner scanner = null;
+        new Scanner(System.in);
         System.out.println("Enter your name : ");
         scanner.nextLine(){
             String name;
