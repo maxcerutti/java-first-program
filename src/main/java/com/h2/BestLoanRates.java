@@ -20,4 +20,8 @@ public class BestLoanRates {
             3, 2.67f
     );
 
+    public static float getRates(int loanTermInYears){
+        return 0.0f;
+    }
+
 }
