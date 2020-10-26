@@ -10,7 +10,7 @@ public class SavingsCalculator{
     }
 
     private float sumOfCredits(){
-        float sum = 0.0f;
+        return 0.0f;
 
     }
 }
