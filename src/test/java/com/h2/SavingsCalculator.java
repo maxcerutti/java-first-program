@@ -4,8 +4,8 @@ public class SavingsCalculator{
     private float credits[];
     private float debits[];
 
-    public void SavingsCalculatorConstructor(float[] credits, float[] debits){
-        credits = null;
-        debits = null;
+    public SavingsCalculator(float[] credits, float[] debits){
+        this.credits = credits;
+        this.debits = debits;
     }
 }
