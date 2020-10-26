@@ -20,7 +20,7 @@ public class SavingsCalculator{
         return sum;
     }
 
-    private float sumOfDedits(){
+    private float sumOfDebits(){
         float sum = 0.0f;
 
         for(float debit : debits)
