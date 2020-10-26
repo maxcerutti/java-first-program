@@ -366,12 +366,3 @@ public class Module3_Test {
         assertEquals("Net Savings = 5.0, remaining days in month = " + remainingDays + "\n", testOut.toString());
     }
 }
-
-public class SavingsCalculator{
-    private float credits[];
-    private float debits[];
-
-    public SavingsCalculatorConstructor( float credits[], float debits[] ){
-
-    }
-}
