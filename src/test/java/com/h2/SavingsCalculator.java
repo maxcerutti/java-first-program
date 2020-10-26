@@ -5,7 +5,7 @@ public class SavingsCalculator{
     private float debits[];
 
     public void SavingsCalculatorConstructor(float[] credits, float[] debits){
-        credits[] = null;
-        debits[] = null;
+        credits = null;
+        debits = null;
     }
 }
