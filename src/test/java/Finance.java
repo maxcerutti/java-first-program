@@ -9,7 +9,7 @@ public class Finance {
             MORTGAGE_CALCULATOR, "usage: mortgageCalculator <loanAmount> <termInYears> <annualRate>");
 
     private static boolean valideCommandArgument(String[] args){
-        return false
+        return false;
 
     }
 
