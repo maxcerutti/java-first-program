@@ -39,8 +39,13 @@ public class SavingsCalculator{
 
         return remainingDays;
 
+    }
 
+    public float calculate(){
+        return sumOfCredits() - sumOfDebits();
+    }
 
+    public static void main (String args){
 
     }
 }
