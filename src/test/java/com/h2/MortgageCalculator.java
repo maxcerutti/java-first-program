@@ -6,9 +6,9 @@ public class MortgageCalculator {
     private float annualRate = 0.0f;
     private double monthlyPayment = 0d;
 
-    public constructor(){
-        long this.loanAmount = loanAmount;
-        int this.termInYears = termInYears;
-        float this.annualRate = annualRate;
+    public MortgageCalculator(){
+        this.loanAmount = loanAmount;
+        this.termInYears = termInYears;
+        this.annualRate = annualRate;
     }
 }
