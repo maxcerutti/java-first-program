@@ -8,14 +8,10 @@ public class Finance {
             SAVINGS_CALCULATOR, "usage: savingsCalculator <credits separated by ','> <debits separated by ','>",
             MORTGAGE_CALCULATOR, "usage: mortgageCalculator <loanAmount> <termInYears> <annualRate>");
 
-}
+    private static boolean valideCommandArgument(String[] args){
 
-private static boolean valideCommandArgument( String[] args){
-    switch (args[0]){
-        case BEST_LOAN_RATES : args.length = 1;
-        case SAVINGS_CALCULATOR : args.length = 3;
-        case MORTGAGE_CALCULATOR : args.length = 4;
+
     }
-    return false;
 
 }
+
