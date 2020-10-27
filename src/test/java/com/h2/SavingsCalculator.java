@@ -45,7 +45,7 @@ public class SavingsCalculator{
         return sumOfCredits() - sumOfDebits();
     }
 
-    public static void main (String args){
+    public static void main (String[] args){
 
     }
 }
