@@ -7,10 +7,8 @@ public class Utilities {
         long out = Long.MIN_VALUE;
         try{
             out = Long.parseLong(in);
-        }
-        catch (NumberFormatException e){
-            new IllegalClassFormatException(in + " cannot be converted into a 'long' value. Exiting program.");
-
+        } catch (NumberFormatException e){
+            throw new IllegalArgumentException(in + " cannot be converted into a 'long' value. Exiting program.");
         }
         return out;
     }
